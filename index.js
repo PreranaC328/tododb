@@ -11,7 +11,7 @@ mongoose.connect("mongodb+srv://preranabangera06:Peru456@cluster0.c0dap3h.mongod
 
 const todoschema=new mongoose.Schema({task:String})
 
-const todomodel=mongoose.model("task",todoschema)
+const todomodel=mongoose.model("task",todoschema) 
 
 // const t1=new todomodel({task:"gaming"})
 // const t2=new todomodel({task:"studying"})
